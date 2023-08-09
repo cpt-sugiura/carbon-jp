@@ -1,0 +1,25 @@
+{
+    "name": "molay76/carbon-jp",
+    "description": "Carbonをアプリケーション設定のタイムゾーンで漏れなくインスタンス化する",
+    "authors": [{
+        "name": "cpt-sugiura"
+    }],
+    "require": {
+        "laravel/framework": ">=8.0",
+        "php": ">=8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Molay76\\CarbonJp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Molay76\\CarbonJp\\CarbonServiceProvider"
+            ]
+        }
+    }
+}
+
